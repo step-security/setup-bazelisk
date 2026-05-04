@@ -1,0 +1,45 @@
+{
+  "name": "setup-bazelisk",
+  "version": "3.0.0",
+  "private": true,
+  "description": "setup bazelisk action",
+  "main": "lib/setup-bazelisk.js",
+  "scripts": {
+    "build": "tsc && ncc build",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "pre-checkin": "npm run format && npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/setup-bazelisk.git"
+  },
+  "keywords": [
+    "actions",
+    "bazelisk",
+    "setup"
+  ],
+  "author": "step-security",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/step-security/setup-bazelisk/issues"
+  },
+  "homepage": "https://github.com/step-security/setup-bazelisk#readme",
+  "dependencies": {
+    "@actions/cache": "^3.2.3",
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "@actions/http-client": "^2.2.1",
+    "@actions/tool-cache": "^2.0.1",
+    "@octokit/auth-unauthenticated": "^5.0.1",
+    "axios": "1.15.0",
+    "cachedir": "^2.4.0",
+    "semver": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.5.8",
+    "@vercel/ncc": "^0.38.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
