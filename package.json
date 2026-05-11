@@ -30,7 +30,7 @@
     "@actions/core": "^2.0.3",
     "@actions/github": "^8.0.1",
     "@actions/http-client": "^3.0.2",
-    "@actions/tool-cache": "^3.0.1",
+    "@actions/tool-cache": "^4.0.0",
     "@octokit/auth-unauthenticated": "^5.0.1",
     "axios": "1.15.2",
     "cachedir": "^2.4.0",
