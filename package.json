@@ -31,7 +31,7 @@
     "@actions/github": "^8.0.1",
     "@actions/http-client": "^3.0.2",
     "@actions/tool-cache": "^3.0.1",
-    "@octokit/auth-unauthenticated": "^5.0.1",
+    "@octokit/auth-unauthenticated": "^7.0.3",
     "axios": "1.15.2",
     "cachedir": "^2.4.0",
     "semver": "^7.6.0"
